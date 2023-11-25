@@ -1,0 +1,6 @@
+{
+    "ignorePatterns": ["jsconfig.json", "**/allure-results/", "**/allure-report", "node_modules/"],
+    "rules": {
+        //...
+    }
+}

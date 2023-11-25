@@ -1,0 +1,67 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "attributes": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "iata": {
+              "type": "string"
+            },
+            "icao": {
+              "type": "string"
+            },
+            "latitude": {
+              "type": "string"
+            },
+            "longitude": {
+              "type": "string"
+            },
+            "altitude": {
+              "type": "integer"
+            },
+            "timezone": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "city",
+            "country",
+            "iata",
+            "icao",
+            "latitude",
+            "longitude",
+            "altitude",
+            "timezone"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "attributes"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}
